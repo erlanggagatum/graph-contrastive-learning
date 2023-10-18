@@ -24,7 +24,6 @@ def loadDataset(name):
             max_degree = max(max_degree, max(deg).item())
         # assign to one hot degree for each data (OneHotDegree receive maximum degree parameter)
         dataset.transform = torch_geometric.transforms.OneHotDegree(int(max_degree))
-    
     return dataset
 
 def toComplementary(g):

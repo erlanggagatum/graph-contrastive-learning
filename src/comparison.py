@@ -19,6 +19,9 @@ encoders = [GCNConv]
 # for data in g_test_loader:
 #     print(data.y)
 
+# New Model
+
+
 # # Base model
 # print('Model: Base Model')
 # for bd in benchmark_datasets:
