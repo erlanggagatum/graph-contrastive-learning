@@ -99,7 +99,7 @@ class ComplementarySupCon(torch.nn.Module):
         
         if (classification):
             h.relu()
-            y = self.lin2(y)
+            y = self.lin2(h)
             
             return h, y
             
