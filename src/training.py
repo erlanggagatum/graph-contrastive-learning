@@ -110,6 +110,8 @@ def train_supcon(model, g_loader, gc_loader, classification = False):
     
     for _, (g_o, g_c) in enumerate(zip(g_loader, gc_loader)):
         if classification: # classification
+            # freeze layer
+            model = freezeLayer(model)
             # last parameter is classification mode
             h, y = model(g_o.x, g_c.x, g_o.edge_index, g_c.edge_index, g_o.batch, True)
             # print(y.size(), g_o.y)
@@ -150,7 +152,7 @@ def train_supcon_epoch(model, g_train_loader, g_test_loader, gc_train_loader, gc
     for epoch in range(0, epoch):
         h, loss = train_supcon(model, g_train_loader, gc_train_loader)
         pretrain_losses.append(loss.item())
-        if epoch % 5 == 0:
+        if epoch % 2 == 0:
             print(f"epoch: {epoch+1} training loss: {loss:.4f}")
     
     losses = []
@@ -168,13 +170,19 @@ def train_supcon_epoch(model, g_train_loader, g_test_loader, gc_train_loader, gc
         test_accs.append(round(test_acc, 4))
         
         # print(f"epoch: {epoch+1} training loss: {loss:.4f}")
-        if epoch % 5 == 0:
+        if epoch % 2 == 0:
             print(f"epoch: {epoch+1} loss: {loss:.4f}; train_acc: {train_acc:.4}; test_acc: {test_acc:.4}")
         # break
     return losses, train_accs, test_accs
 
 
-
+def freezeLayer(model):
+    for name, para in model.named_parameters():
+        if "conv" in name:
+            para.requires_grad = False
+        if "lin1" in name:
+            para.requires_grad = False
+    return model
 
 
 # LOSS

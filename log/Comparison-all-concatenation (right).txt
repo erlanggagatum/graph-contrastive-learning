@@ -1,0 +1,478 @@
+** With freeze layer
+
+Model: Base Model
+Dataset:  IMDB-BINARY
+epoch: 1 train_acc: 0.7422 loss: 0.8166 test_acc: 0.7900
+epoch: 2 train_acc: 0.7300 loss: 0.7637 test_acc: 0.7200
+epoch: 3 train_acc: 0.7444 loss: 0.6701 test_acc: 0.7400
+epoch: 4 train_acc: 0.7444 loss: 0.6647 test_acc: 0.7100
+epoch: 5 train_acc: 0.7567 loss: 0.6481 test_acc: 0.7000
+epoch: 6 train_acc: 0.7678 loss: 0.5278 test_acc: 0.7500
+epoch: 7 train_acc: 0.7689 loss: 0.5151 test_acc: 0.7500
+epoch: 8 train_acc: 0.7544 loss: 0.5575 test_acc: 0.7300
+epoch: 9 train_acc: 0.7711 loss: 0.4482 test_acc: 0.7500
+epoch: 10 train_acc: 0.7633 loss: 0.4132 test_acc: 0.7500
+epoch: 11 train_acc: 0.7656 loss: 0.3806 test_acc: 0.7500
+epoch: 12 train_acc: 0.7656 loss: 0.3917 test_acc: 0.7300
+epoch: 13 train_acc: 0.7800 loss: 0.3495 test_acc: 0.7400
+epoch: 14 train_acc: 0.7844 loss: 0.3995 test_acc: 0.7400
+epoch: 15 train_acc: 0.7744 loss: 0.3229 test_acc: 0.7200
+epoch: 16 train_acc: 0.7722 loss: 0.3491 test_acc: 0.7400
+epoch: 17 train_acc: 0.7733 loss: 0.3277 test_acc: 0.7000
+epoch: 18 train_acc: 0.7822 loss: 0.3050 test_acc: 0.7100
+epoch: 19 train_acc: 0.7978 loss: 0.3066 test_acc: 0.7600
+epoch: 20 train_acc: 0.7944 loss: 0.3235 test_acc: 0.6900
+epoch: 21 train_acc: 0.7667 loss: 0.3176 test_acc: 0.6800
+epoch: 22 train_acc: 0.7711 loss: 0.3137 test_acc: 0.7400
+epoch: 23 train_acc: 0.7600 loss: 0.3114 test_acc: 0.7200
+epoch: 24 train_acc: 0.7922 loss: 0.3020 test_acc: 0.7200
+epoch: 25 train_acc: 0.7611 loss: 0.2925 test_acc: 0.7300
+epoch: 26 train_acc: 0.7678 loss: 0.2851 test_acc: 0.6900
+epoch: 27 train_acc: 0.7778 loss: 0.2672 test_acc: 0.7100
+epoch: 28 train_acc: 0.7444 loss: 0.2980 test_acc: 0.7100
+epoch: 29 train_acc: 0.7822 loss: 0.3059 test_acc: 0.7200
+epoch: 30 train_acc: 0.7789 loss: 0.2777 test_acc: 0.6900
+epoch: 31 train_acc: 0.7878 loss: 0.2754 test_acc: 0.7000
+epoch: 32 train_acc: 0.7933 loss: 0.2628 test_acc: 0.7300
+epoch: 33 train_acc: 0.7711 loss: 0.2535 test_acc: 0.7300
+epoch: 34 train_acc: 0.7933 loss: 0.2861 test_acc: 0.6900
+epoch: 35 train_acc: 0.7911 loss: 0.2129 test_acc: 0.7200
+epoch: 36 train_acc: 0.7844 loss: 0.1890 test_acc: 0.6900
+epoch: 37 train_acc: 0.7744 loss: 0.2072 test_acc: 0.6900
+epoch: 38 train_acc: 0.7700 loss: 0.2744 test_acc: 0.6700
+epoch: 39 train_acc: 0.7833 loss: 0.2476 test_acc: 0.7100
+epoch: 40 train_acc: 0.7933 loss: 0.2252 test_acc: 0.6900
+epoch: 41 train_acc: 0.7456 loss: 0.3675 test_acc: 0.7000
+epoch: 42 train_acc: 0.7889 loss: 0.2359 test_acc: 0.7200
+epoch: 43 train_acc: 0.7678 loss: 0.2598 test_acc: 0.7000
+epoch: 44 train_acc: 0.7533 loss: 0.2916 test_acc: 0.7300
+epoch: 45 train_acc: 0.7522 loss: 0.2697 test_acc: 0.7000
+epoch: 46 train_acc: 0.8000 loss: 0.2125 test_acc: 0.7100
+epoch: 47 train_acc: 0.7911 loss: 0.2331 test_acc: 0.7200
+epoch: 48 train_acc: 0.7978 loss: 0.2289 test_acc: 0.6800
+epoch: 49 train_acc: 0.7889 loss: 0.2076 test_acc: 0.7300
+epoch: 50 train_acc: 0.7789 loss: 0.2319 test_acc: 0.6900
+
+Dataset:  IMDB-MULTI
+epoch: 1 train_acc: 0.4526 loss: 0.7741 test_acc: 0.4000
+epoch: 2 train_acc: 0.4556 loss: 0.7498 test_acc: 0.3867
+epoch: 3 train_acc: 0.4667 loss: 0.7897 test_acc: 0.3867
+epoch: 4 train_acc: 0.4859 loss: 0.7891 test_acc: 0.4067
+epoch: 5 train_acc: 0.4822 loss: 0.7769 test_acc: 0.3667
+epoch: 6 train_acc: 0.4993 loss: 0.8611 test_acc: 0.4000
+epoch: 7 train_acc: 0.4711 loss: 0.8601 test_acc: 0.3800
+epoch: 8 train_acc: 0.5141 loss: 0.7837 test_acc: 0.4067
+epoch: 9 train_acc: 0.4881 loss: 0.8241 test_acc: 0.3533
+epoch: 10 train_acc: 0.4748 loss: 0.8072 test_acc: 0.3533
+epoch: 11 train_acc: 0.4837 loss: 0.7560 test_acc: 0.4000
+epoch: 12 train_acc: 0.4852 loss: 0.7675 test_acc: 0.3867
+epoch: 13 train_acc: 0.4874 loss: 0.7451 test_acc: 0.3867
+epoch: 14 train_acc: 0.4970 loss: 0.8274 test_acc: 0.3533
+epoch: 15 train_acc: 0.5452 loss: 0.7466 test_acc: 0.4200
+epoch: 16 train_acc: 0.4956 loss: 0.7764 test_acc: 0.3533
+epoch: 17 train_acc: 0.4881 loss: 0.7326 test_acc: 0.3467
+epoch: 18 train_acc: 0.5178 loss: 0.7774 test_acc: 0.3800
+epoch: 19 train_acc: 0.4904 loss: 0.8365 test_acc: 0.3867
+epoch: 20 train_acc: 0.5119 loss: 0.7239 test_acc: 0.3733
+epoch: 21 train_acc: 0.4896 loss: 0.7281 test_acc: 0.4067
+epoch: 22 train_acc: 0.5052 loss: 0.6950 test_acc: 0.4000
+epoch: 23 train_acc: 0.5059 loss: 0.7237 test_acc: 0.3600
+epoch: 24 train_acc: 0.5052 loss: 0.7049 test_acc: 0.4000
+epoch: 25 train_acc: 0.5044 loss: 0.6993 test_acc: 0.4000
+epoch: 26 train_acc: 0.5000 loss: 0.6388 test_acc: 0.4000
+epoch: 27 train_acc: 0.5104 loss: 0.6963 test_acc: 0.3933
+epoch: 28 train_acc: 0.5570 loss: 0.6650 test_acc: 0.4467
+epoch: 29 train_acc: 0.5141 loss: 0.7351 test_acc: 0.3867
+epoch: 30 train_acc: 0.4844 loss: 0.6855 test_acc: 0.3733
+epoch: 31 train_acc: 0.5156 loss: 0.6937 test_acc: 0.3267
+epoch: 32 train_acc: 0.4941 loss: 0.6418 test_acc: 0.3667
+epoch: 33 train_acc: 0.5207 loss: 0.6716 test_acc: 0.3733
+epoch: 34 train_acc: 0.5200 loss: 0.6988 test_acc: 0.3467
+epoch: 35 train_acc: 0.5096 loss: 0.7589 test_acc: 0.3667
+epoch: 36 train_acc: 0.5341 loss: 0.6254 test_acc: 0.4267
+epoch: 37 train_acc: 0.5000 loss: 0.6879 test_acc: 0.3733
+epoch: 38 train_acc: 0.5193 loss: 0.6318 test_acc: 0.4067
+epoch: 39 train_acc: 0.5119 loss: 0.6501 test_acc: 0.3733
+epoch: 40 train_acc: 0.5222 loss: 0.6681 test_acc: 0.3733
+epoch: 41 train_acc: 0.5133 loss: 0.6784 test_acc: 0.3800
+epoch: 42 train_acc: 0.5148 loss: 0.6730 test_acc: 0.3733
+epoch: 43 train_acc: 0.5422 loss: 0.7004 test_acc: 0.3667
+epoch: 44 train_acc: 0.5141 loss: 0.6909 test_acc: 0.4067
+epoch: 45 train_acc: 0.5274 loss: 0.6555 test_acc: 0.3933
+epoch: 46 train_acc: 0.5185 loss: 0.6853 test_acc: 0.3867
+epoch: 47 train_acc: 0.5059 loss: 0.6882 test_acc: 0.3933
+epoch: 48 train_acc: 0.5089 loss: 0.6760 test_acc: 0.3733
+epoch: 49 train_acc: 0.5356 loss: 0.6557 test_acc: 0.4133
+epoch: 50 train_acc: 0.5652 loss: 0.7447 test_acc: 0.3800
+
+Dataset:  MUTAG
+epoch: 1 train_acc: 0.6509 loss: 1.1739 test_acc: 0.7895
+epoch: 2 train_acc: 0.6509 loss: 0.7118 test_acc: 0.7895
+epoch: 3 train_acc: 0.6923 loss: 0.6195 test_acc: 0.7895
+epoch: 4 train_acc: 0.7633 loss: 0.5346 test_acc: 0.8421
+epoch: 5 train_acc: 0.6746 loss: 0.7933 test_acc: 0.7895
+epoch: 6 train_acc: 0.6982 loss: 0.5864 test_acc: 0.8421
+epoch: 7 train_acc: 0.6982 loss: 0.6179 test_acc: 0.8421
+epoch: 8 train_acc: 0.6982 loss: 0.5833 test_acc: 0.8421
+epoch: 9 train_acc: 0.7278 loss: 0.5771 test_acc: 0.8421
+epoch: 10 train_acc: 0.7278 loss: 0.5695 test_acc: 0.8421
+epoch: 11 train_acc: 0.7278 loss: 0.5689 test_acc: 0.8421
+epoch: 12 train_acc: 0.7456 loss: 0.5599 test_acc: 0.8421
+epoch: 13 train_acc: 0.7515 loss: 0.5542 test_acc: 0.7895
+epoch: 14 train_acc: 0.7456 loss: 0.5695 test_acc: 0.7895
+epoch: 15 train_acc: 0.7456 loss: 0.5770 test_acc: 0.7895
+epoch: 16 train_acc: 0.7278 loss: 0.5644 test_acc: 0.8421
+epoch: 17 train_acc: 0.7515 loss: 0.5570 test_acc: 0.8421
+epoch: 18 train_acc: 0.7515 loss: 0.5645 test_acc: 0.8421
+epoch: 19 train_acc: 0.7515 loss: 0.5649 test_acc: 0.8421
+epoch: 20 train_acc: 0.7456 loss: 0.5702 test_acc: 0.8947
+epoch: 21 train_acc: 0.7515 loss: 0.5626 test_acc: 0.8947
+epoch: 22 train_acc: 0.7456 loss: 0.5709 test_acc: 0.8947
+epoch: 23 train_acc: 0.7515 loss: 0.5615 test_acc: 0.8421
+epoch: 24 train_acc: 0.7574 loss: 0.5690 test_acc: 0.8421
+epoch: 25 train_acc: 0.7574 loss: 0.5707 test_acc: 0.8421
+epoch: 26 train_acc: 0.7574 loss: 0.5745 test_acc: 0.8421
+epoch: 27 train_acc: 0.7574 loss: 0.5729 test_acc: 0.8421
+epoch: 28 train_acc: 0.7574 loss: 0.5846 test_acc: 0.8421
+epoch: 29 train_acc: 0.7574 loss: 0.5810 test_acc: 0.8421
+epoch: 30 train_acc: 0.7574 loss: 0.5766 test_acc: 0.8421
+epoch: 31 train_acc: 0.7574 loss: 0.5760 test_acc: 0.8421
+epoch: 32 train_acc: 0.7633 loss: 0.5827 test_acc: 0.8421
+epoch: 33 train_acc: 0.7633 loss: 0.5867 test_acc: 0.8421
+epoch: 34 train_acc: 0.7633 loss: 0.5856 test_acc: 0.8421
+epoch: 35 train_acc: 0.7633 loss: 0.5901 test_acc: 0.8421
+epoch: 36 train_acc: 0.7633 loss: 0.5879 test_acc: 0.8421
+epoch: 37 train_acc: 0.7633 loss: 0.6050 test_acc: 0.8421
+epoch: 38 train_acc: 0.7633 loss: 0.6148 test_acc: 0.8421
+epoch: 39 train_acc: 0.7633 loss: 0.6078 test_acc: 0.8421
+epoch: 40 train_acc: 0.7633 loss: 0.6152 test_acc: 0.8421
+epoch: 41 train_acc: 0.7633 loss: 0.6052 test_acc: 0.8421
+epoch: 42 train_acc: 0.7633 loss: 0.6093 test_acc: 0.8421
+epoch: 43 train_acc: 0.7633 loss: 0.6067 test_acc: 0.8421
+epoch: 44 train_acc: 0.7633 loss: 0.6129 test_acc: 0.8421
+epoch: 45 train_acc: 0.7633 loss: 0.6050 test_acc: 0.8421
+epoch: 46 train_acc: 0.7633 loss: 0.6235 test_acc: 0.8421
+epoch: 47 train_acc: 0.7633 loss: 0.6116 test_acc: 0.8421
+epoch: 48 train_acc: 0.7633 loss: 0.6230 test_acc: 0.8421
+epoch: 49 train_acc: 0.7633 loss: 0.6009 test_acc: 0.8421
+epoch: 50 train_acc: 0.7633 loss: 0.6337 test_acc: 0.8421
+
+Model: Previous Model
+Dataset:  IMDB-BINARY
+epoch: 1 train_acc: 0.7278 loss: 0.8315 accuracy: 0.7000
+epoch: 2 train_acc: 0.7533 loss: 0.7580 accuracy: 0.7500
+epoch: 3 train_acc: 0.7600 loss: 0.6820 accuracy: 0.7200
+epoch: 4 train_acc: 0.7578 loss: 0.7039 accuracy: 0.7300
+epoch: 5 train_acc: 0.7589 loss: 0.7263 accuracy: 0.7500
+epoch: 6 train_acc: 0.7633 loss: 0.6817 accuracy: 0.7500
+epoch: 7 train_acc: 0.7767 loss: 0.7601 accuracy: 0.7300
+epoch: 8 train_acc: 0.7589 loss: 1.0277 accuracy: 0.7200
+epoch: 9 train_acc: 0.7522 loss: 0.8657 accuracy: 0.7100
+epoch: 10 train_acc: 0.7722 loss: 0.6906 accuracy: 0.7200
+epoch: 11 train_acc: 0.7644 loss: 0.4444 accuracy: 0.7200
+epoch: 12 train_acc: 0.7811 loss: 0.4563 accuracy: 0.7500
+epoch: 13 train_acc: 0.7689 loss: 0.5607 accuracy: 0.7500
+epoch: 14 train_acc: 0.7600 loss: 0.3953 accuracy: 0.7300
+epoch: 15 train_acc: 0.7844 loss: 0.4177 accuracy: 0.7400
+epoch: 16 train_acc: 0.7856 loss: 0.3011 accuracy: 0.7300
+epoch: 17 train_acc: 0.7689 loss: 0.3832 accuracy: 0.7300
+epoch: 18 train_acc: 0.7811 loss: 0.3185 accuracy: 0.7200
+epoch: 19 train_acc: 0.7778 loss: 0.2880 accuracy: 0.7300
+epoch: 20 train_acc: 0.7800 loss: 0.6354 accuracy: 0.7100
+epoch: 21 train_acc: 0.7867 loss: 0.2790 accuracy: 0.7300
+epoch: 22 train_acc: 0.7756 loss: 0.2816 accuracy: 0.7300
+epoch: 23 train_acc: 0.7489 loss: 0.3933 accuracy: 0.6900
+epoch: 24 train_acc: 0.7844 loss: 0.2595 accuracy: 0.7300
+epoch: 25 train_acc: 0.7900 loss: 0.2487 accuracy: 0.7000
+epoch: 26 train_acc: 0.7900 loss: 0.2635 accuracy: 0.7400
+epoch: 27 train_acc: 0.7867 loss: 0.2817 accuracy: 0.7000
+epoch: 28 train_acc: 0.7933 loss: 0.2735 accuracy: 0.7100
+epoch: 29 train_acc: 0.7744 loss: 0.2554 accuracy: 0.7000
+epoch: 30 train_acc: 0.7667 loss: 0.2310 accuracy: 0.6600
+epoch: 31 train_acc: 0.7367 loss: 0.2337 accuracy: 0.6500
+epoch: 32 train_acc: 0.7933 loss: 0.2158 accuracy: 0.7000
+epoch: 33 train_acc: 0.7856 loss: 0.2614 accuracy: 0.7100
+epoch: 34 train_acc: 0.7800 loss: 0.2315 accuracy: 0.7000
+epoch: 35 train_acc: 0.7622 loss: 0.2548 accuracy: 0.6900
+epoch: 36 train_acc: 0.7756 loss: 0.2575 accuracy: 0.6900
+epoch: 37 train_acc: 0.7811 loss: 0.2197 accuracy: 0.6700
+epoch: 38 train_acc: 0.8122 loss: 0.2631 accuracy: 0.7000
+epoch: 39 train_acc: 0.8000 loss: 0.2318 accuracy: 0.7300
+epoch: 40 train_acc: 0.8089 loss: 0.2492 accuracy: 0.6800
+epoch: 41 train_acc: 0.7789 loss: 0.1937 accuracy: 0.7000
+epoch: 42 train_acc: 0.7822 loss: 0.2346 accuracy: 0.7000
+epoch: 43 train_acc: 0.7833 loss: 0.2151 accuracy: 0.7000
+epoch: 44 train_acc: 0.7778 loss: 0.2033 accuracy: 0.6800
+epoch: 45 train_acc: 0.8000 loss: 0.2302 accuracy: 0.6900
+epoch: 46 train_acc: 0.7867 loss: 0.2031 accuracy: 0.6900
+epoch: 47 train_acc: 0.7822 loss: 0.2483 accuracy: 0.7100
+epoch: 48 train_acc: 0.7700 loss: 0.2770 accuracy: 0.6900
+epoch: 49 train_acc: 0.7356 loss: 0.3324 accuracy: 0.6900
+epoch: 50 train_acc: 0.8122 loss: 0.3013 accuracy: 0.6900
+
+Dataset:  IMDB-MULTI
+epoch: 1 train_acc: 0.4578 loss: 0.8470 accuracy: 0.3667
+epoch: 2 train_acc: 0.4600 loss: 0.7576 accuracy: 0.3533
+epoch: 3 train_acc: 0.4644 loss: 0.7252 accuracy: 0.3667
+epoch: 4 train_acc: 0.5096 loss: 0.7458 accuracy: 0.4000
+epoch: 5 train_acc: 0.4867 loss: 0.7464 accuracy: 0.3667
+epoch: 6 train_acc: 0.4807 loss: 0.7365 accuracy: 0.3467
+epoch: 7 train_acc: 0.4770 loss: 0.7391 accuracy: 0.3333
+epoch: 8 train_acc: 0.5274 loss: 0.7882 accuracy: 0.4067
+epoch: 9 train_acc: 0.4844 loss: 0.7349 accuracy: 0.3467
+epoch: 10 train_acc: 0.5333 loss: 0.7309 accuracy: 0.3867
+epoch: 11 train_acc: 0.5000 loss: 0.7462 accuracy: 0.3333
+epoch: 12 train_acc: 0.5281 loss: 0.7214 accuracy: 0.4000
+epoch: 13 train_acc: 0.5363 loss: 0.7484 accuracy: 0.3800
+epoch: 14 train_acc: 0.4941 loss: 0.7034 accuracy: 0.3600
+epoch: 15 train_acc: 0.5459 loss: 0.7015 accuracy: 0.3867
+epoch: 16 train_acc: 0.4919 loss: 0.7013 accuracy: 0.3267
+epoch: 17 train_acc: 0.5311 loss: 0.7283 accuracy: 0.3867
+epoch: 18 train_acc: 0.5304 loss: 0.7059 accuracy: 0.3867
+epoch: 19 train_acc: 0.5348 loss: 0.6926 accuracy: 0.4133
+epoch: 20 train_acc: 0.4904 loss: 0.6676 accuracy: 0.3600
+epoch: 21 train_acc: 0.5119 loss: 0.6235 accuracy: 0.3933
+epoch: 22 train_acc: 0.5422 loss: 0.6568 accuracy: 0.4133
+epoch: 23 train_acc: 0.5089 loss: 0.7491 accuracy: 0.3733
+epoch: 24 train_acc: 0.4919 loss: 0.6890 accuracy: 0.3800
+epoch: 25 train_acc: 0.4948 loss: 0.6242 accuracy: 0.3867
+epoch: 26 train_acc: 0.5015 loss: 0.6553 accuracy: 0.3533
+epoch: 27 train_acc: 0.4970 loss: 0.6795 accuracy: 0.4000
+epoch: 28 train_acc: 0.5067 loss: 0.6410 accuracy: 0.4067
+epoch: 29 train_acc: 0.5319 loss: 0.6590 accuracy: 0.4000
+epoch: 30 train_acc: 0.4933 loss: 0.6231 accuracy: 0.4000
+epoch: 31 train_acc: 0.4889 loss: 0.8576 accuracy: 0.3867
+epoch: 32 train_acc: 0.5741 loss: 0.9742 accuracy: 0.4400
+epoch: 33 train_acc: 0.5541 loss: 0.7174 accuracy: 0.4467
+epoch: 34 train_acc: 0.5481 loss: 0.8214 accuracy: 0.4333
+epoch: 35 train_acc: 0.5156 loss: 0.7359 accuracy: 0.3400
+epoch: 36 train_acc: 0.5052 loss: 0.9615 accuracy: 0.4333
+epoch: 37 train_acc: 0.4978 loss: 0.8808 accuracy: 0.3867
+epoch: 38 train_acc: 0.4904 loss: 0.6036 accuracy: 0.3867
+epoch: 39 train_acc: 0.4659 loss: 0.6407 accuracy: 0.4067
+epoch: 40 train_acc: 0.4933 loss: 0.6558 accuracy: 0.3667
+epoch: 41 train_acc: 0.4822 loss: 0.6328 accuracy: 0.3000
+epoch: 42 train_acc: 0.5015 loss: 0.7023 accuracy: 0.3667
+epoch: 43 train_acc: 0.4756 loss: 0.6915 accuracy: 0.3200
+epoch: 44 train_acc: 0.4970 loss: 0.8204 accuracy: 0.3933
+epoch: 45 train_acc: 0.5059 loss: 1.0783 accuracy: 0.3733
+epoch: 46 train_acc: 0.4978 loss: 1.1295 accuracy: 0.3467
+epoch: 47 train_acc: 0.5430 loss: 0.6886 accuracy: 0.4267
+epoch: 48 train_acc: 0.5630 loss: 0.6370 accuracy: 0.4400
+epoch: 49 train_acc: 0.4733 loss: 0.8544 accuracy: 0.3800
+epoch: 50 train_acc: 0.5281 loss: 0.6896 accuracy: 0.4467
+
+Dataset:  MUTAG
+epoch: 1 train_acc: 0.3491 loss: 0.6661 accuracy: 0.2105
+epoch: 2 train_acc: 0.6391 loss: 0.5820 accuracy: 0.5263
+epoch: 3 train_acc: 0.6982 loss: 0.5704 accuracy: 0.6842
+epoch: 4 train_acc: 0.7278 loss: 0.5506 accuracy: 0.8421
+epoch: 5 train_acc: 0.6864 loss: 0.6629 accuracy: 0.7895
+epoch: 6 train_acc: 0.7574 loss: 0.5934 accuracy: 0.8421
+epoch: 7 train_acc: 0.6746 loss: 0.6989 accuracy: 0.7895
+epoch: 8 train_acc: 0.7160 loss: 0.5740 accuracy: 0.7895
+epoch: 9 train_acc: 0.6805 loss: 0.6493 accuracy: 0.8421
+epoch: 10 train_acc: 0.6923 loss: 0.5847 accuracy: 0.8421
+epoch: 11 train_acc: 0.7101 loss: 0.6088 accuracy: 0.8421
+epoch: 12 train_acc: 0.7101 loss: 0.5915 accuracy: 0.8421
+epoch: 13 train_acc: 0.7160 loss: 0.5584 accuracy: 0.8421
+epoch: 14 train_acc: 0.7219 loss: 0.6056 accuracy: 0.8421
+epoch: 15 train_acc: 0.7041 loss: 0.5754 accuracy: 0.8421
+epoch: 16 train_acc: 0.7101 loss: 0.5900 accuracy: 0.8421
+epoch: 17 train_acc: 0.7101 loss: 0.5569 accuracy: 0.8421
+epoch: 18 train_acc: 0.7337 loss: 0.5742 accuracy: 0.8421
+epoch: 19 train_acc: 0.7101 loss: 0.5582 accuracy: 0.8421
+epoch: 20 train_acc: 0.7337 loss: 0.5730 accuracy: 0.8421
+epoch: 21 train_acc: 0.7041 loss: 0.5602 accuracy: 0.8421
+epoch: 22 train_acc: 0.7337 loss: 0.5578 accuracy: 0.8421
+epoch: 23 train_acc: 0.7041 loss: 0.5682 accuracy: 0.8421
+epoch: 24 train_acc: 0.7041 loss: 0.5628 accuracy: 0.8421
+epoch: 25 train_acc: 0.7101 loss: 0.5571 accuracy: 0.8421
+epoch: 26 train_acc: 0.7396 loss: 0.5317 accuracy: 0.8421
+epoch: 27 train_acc: 0.7041 loss: 0.5339 accuracy: 0.8421
+epoch: 28 train_acc: 0.7219 loss: 0.4927 accuracy: 0.8421
+epoch: 29 train_acc: 0.7160 loss: 0.5693 accuracy: 0.8421
+epoch: 30 train_acc: 0.7101 loss: 0.5764 accuracy: 0.8421
+epoch: 31 train_acc: 0.7101 loss: 0.5416 accuracy: 0.8421
+epoch: 32 train_acc: 0.7337 loss: 0.5242 accuracy: 0.8421
+epoch: 33 train_acc: 0.7396 loss: 0.5113 accuracy: 0.8421
+epoch: 34 train_acc: 0.7337 loss: 0.5061 accuracy: 0.8421
+epoch: 35 train_acc: 0.7574 loss: 0.4806 accuracy: 0.8421
+epoch: 36 train_acc: 0.7456 loss: 0.4867 accuracy: 0.8421
+epoch: 37 train_acc: 0.7574 loss: 0.4477 accuracy: 0.8421
+epoch: 38 train_acc: 0.7515 loss: 0.4820 accuracy: 0.8421
+epoch: 39 train_acc: 0.7633 loss: 0.4823 accuracy: 0.8421
+epoch: 40 train_acc: 0.7515 loss: 0.4457 accuracy: 0.8421
+epoch: 41 train_acc: 0.7692 loss: 0.5385 accuracy: 0.8421
+epoch: 42 train_acc: 0.7456 loss: 0.5148 accuracy: 0.8421
+epoch: 43 train_acc: 0.7574 loss: 0.4704 accuracy: 0.8421
+epoch: 44 train_acc: 0.7396 loss: 0.4980 accuracy: 0.8421
+epoch: 45 train_acc: 0.7692 loss: 0.4836 accuracy: 0.8421
+epoch: 46 train_acc: 0.7811 loss: 0.4721 accuracy: 0.8421
+epoch: 47 train_acc: 0.7456 loss: 0.5968 accuracy: 0.8421
+epoch: 48 train_acc: 0.7456 loss: 0.5383 accuracy: 0.8421
+epoch: 49 train_acc: 0.7396 loss: 0.5808 accuracy: 0.8421
+epoch: 50 train_acc: 0.7574 loss: 0.4779 accuracy: 0.8421
+
+Proposed Model
+Dataset:  IMDB-BINARY
+=== pretrain ===
+epoch: 1 training loss: 3.4806
+epoch: 3 training loss: 3.7486
+epoch: 5 training loss: 4.0238
+epoch: 7 training loss: 4.0492
+epoch: 9 training loss: 4.0062
+epoch: 11 training loss: 3.9551
+epoch: 13 training loss: 3.8568
+epoch: 15 training loss: 3.7096
+epoch: 17 training loss: 3.6327
+epoch: 19 training loss: 3.5787
+epoch: 21 training loss: 3.5991
+epoch: 23 training loss: 3.5673
+epoch: 25 training loss: 3.5193
+epoch: 27 training loss: 3.5388
+epoch: 29 training loss: 3.5375
+epoch: 31 training loss: 3.5471
+epoch: 33 training loss: 3.5458
+epoch: 35 training loss: 3.5861
+epoch: 37 training loss: 3.6063
+epoch: 39 training loss: 3.7004
+epoch: 41 training loss: 3.6758
+epoch: 43 training loss: 3.6701
+epoch: 45 training loss: 3.6977
+epoch: 47 training loss: 3.6886
+epoch: 49 training loss: 3.7386
+=== training classifier ===
+epoch: 1 loss: 0.0002; train_acc: 0.8189; test_acc: 0.7
+epoch: 3 loss: 13.2066; train_acc: 0.7811; test_acc: 0.7
+epoch: 5 loss: 0.0000; train_acc: 0.64; test_acc: 0.65
+epoch: 7 loss: 9.5656; train_acc: 0.7744; test_acc: 0.71
+epoch: 9 loss: 0.0000; train_acc: 0.8289; test_acc: 0.71
+epoch: 11 loss: 6.1217; train_acc: 0.6322; test_acc: 0.63
+epoch: 13 loss: 17.6165; train_acc: 0.6367; test_acc: 0.63
+epoch: 15 loss: 24.5998; train_acc: 0.5711; test_acc: 0.53
+epoch: 17 loss: 15.1362; train_acc: 0.8289; test_acc: 0.72
+epoch: 19 loss: 14.1754; train_acc: 0.8056; test_acc: 0.71
+epoch: 21 loss: 3.6943; train_acc: 0.8144; test_acc: 0.71
+epoch: 23 loss: 0.0393; train_acc: 0.8222; test_acc: 0.75
+epoch: 25 loss: 0.0000; train_acc: 0.8189; test_acc: 0.71
+epoch: 27 loss: 7.0166; train_acc: 0.7778; test_acc: 0.71
+epoch: 29 loss: 0.7953; train_acc: 0.8222; test_acc: 0.71
+epoch: 31 loss: 8.0659; train_acc: 0.82; test_acc: 0.72
+epoch: 33 loss: 14.7801; train_acc: 0.7211; test_acc: 0.72
+epoch: 35 loss: 11.6308; train_acc: 0.8067; test_acc: 0.71
+epoch: 37 loss: 0.0010; train_acc: 0.6367; test_acc: 0.62
+epoch: 39 loss: 35.5317; train_acc: 0.8278; test_acc: 0.7
+epoch: 41 loss: 6.8344; train_acc: 0.61; test_acc: 0.58
+epoch: 43 loss: 7.3195; train_acc: 0.8211; test_acc: 0.76
+epoch: 45 loss: 48.0746; train_acc: 0.83; test_acc: 0.74
+epoch: 47 loss: 1.5855; train_acc: 0.7778; test_acc: 0.71
+epoch: 49 loss: 24.4527; train_acc: 0.6678; test_acc: 0.71
+
+Dataset:  IMDB-MULTI
+=== pretrain ===
+epoch: 1 training loss: 6.0706
+epoch: 3 training loss: 5.9906
+epoch: 5 training loss: 5.9759
+epoch: 7 training loss: 5.9771
+epoch: 9 training loss: 5.9860
+epoch: 11 training loss: 5.9996
+epoch: 13 training loss: 6.0107
+epoch: 15 training loss: 6.0154
+epoch: 17 training loss: 6.0141
+epoch: 19 training loss: 6.0063
+epoch: 21 training loss: 6.0122
+epoch: 23 training loss: 6.0124
+epoch: 25 training loss: 6.0094
+epoch: 27 training loss: 6.0216
+epoch: 29 training loss: 6.0226
+epoch: 31 training loss: 6.0226
+epoch: 33 training loss: 6.0118
+epoch: 35 training loss: 6.0247
+epoch: 37 training loss: 6.0307
+epoch: 39 training loss: 6.0577
+epoch: 41 training loss: 6.0602
+epoch: 43 training loss: 6.0853
+epoch: 45 training loss: 6.0896
+epoch: 47 training loss: 6.0957
+epoch: 49 training loss: 6.1672
+=== training classifier ===
+epoch: 1 loss: 92.3650; train_acc: 0.4007; test_acc: 0.3133
+epoch: 3 loss: 32.0505; train_acc: 0.3348; test_acc: 0.32
+epoch: 5 loss: 0.0222; train_acc: 0.3341; test_acc: 0.3267
+epoch: 7 loss: 20.0709; train_acc: 0.4178; test_acc: 0.32
+epoch: 9 loss: 1.4291; train_acc: 0.4007; test_acc: 0.3733
+epoch: 11 loss: 54.5386; train_acc: 0.3393; test_acc: 0.3267
+epoch: 13 loss: 51.6246; train_acc: 0.3652; test_acc: 0.3133
+epoch: 15 loss: 13.4603; train_acc: 0.3881; test_acc: 0.38
+epoch: 17 loss: 88.9421; train_acc: 0.3274; test_acc: 0.32
+epoch: 19 loss: 25.5575; train_acc: 0.3933; test_acc: 0.3733
+epoch: 21 loss: 44.5431; train_acc: 0.4956; test_acc: 0.4267
+epoch: 23 loss: 19.0836; train_acc: 0.3341; test_acc: 0.32
+epoch: 25 loss: 25.3767; train_acc: 0.4244; test_acc: 0.3933
+epoch: 27 loss: 34.7225; train_acc: 0.3933; test_acc: 0.3733
+epoch: 29 loss: 27.5067; train_acc: 0.3341; test_acc: 0.3267
+epoch: 31 loss: 38.7338; train_acc: 0.3719; test_acc: 0.3067
+epoch: 33 loss: 20.7872; train_acc: 0.3489; test_acc: 0.3267
+epoch: 35 loss: 31.5562; train_acc: 0.3341; test_acc: 0.3267
+epoch: 37 loss: 27.0096; train_acc: 0.3407; test_acc: 0.3267
+epoch: 39 loss: 41.5451; train_acc: 0.3504; test_acc: 0.3333
+epoch: 41 loss: 59.4260; train_acc: 0.3837; test_acc: 0.3333
+epoch: 43 loss: 21.3598; train_acc: 0.3341; test_acc: 0.3267
+epoch: 45 loss: 28.6011; train_acc: 0.3341; test_acc: 0.3267
+epoch: 47 loss: 11.0328; train_acc: 0.4489; test_acc: 0.4067
+epoch: 49 loss: 25.0049; train_acc: 0.3704; test_acc: 0.3067
+
+Dataset:  MUTAG
+=== pretrain ===
+epoch: 1 training loss: 20.2925
+epoch: 3 training loss: 20.3163
+epoch: 5 training loss: 20.3151
+epoch: 7 training loss: 20.3183
+epoch: 9 training loss: 20.3148
+epoch: 11 training loss: 20.3110
+epoch: 13 training loss: 20.3137
+epoch: 15 training loss: 20.3444
+epoch: 17 training loss: 20.3620
+epoch: 19 training loss: 20.3998
+epoch: 21 training loss: 20.4259
+epoch: 23 training loss: 20.4759
+epoch: 25 training loss: 20.5123
+epoch: 27 training loss: 20.5354
+epoch: 29 training loss: 20.5536
+epoch: 31 training loss: 20.5850
+epoch: 33 training loss: 20.6465
+epoch: 35 training loss: 20.6156
+epoch: 37 training loss: 20.6810
+epoch: 39 training loss: 20.6817
+epoch: 41 training loss: 20.7522
+epoch: 43 training loss: 20.7086
+epoch: 45 training loss: 20.6958
+epoch: 47 training loss: 20.8012
+epoch: 49 training loss: 20.7142
+=== training classifier ===
+epoch: 1 loss: 0.8546; train_acc: 0.6509; test_acc: 0.7895
+epoch: 3 loss: 0.4115; train_acc: 0.7811; test_acc: 0.7368
+epoch: 5 loss: 0.5292; train_acc: 0.6036; test_acc: 0.4737
+epoch: 7 loss: 0.6447; train_acc: 0.8047; test_acc: 0.7895
+epoch: 9 loss: 0.5257; train_acc: 0.6509; test_acc: 0.7895
+epoch: 11 loss: 1.1762; train_acc: 0.7219; test_acc: 0.8421
+epoch: 13 loss: 0.3649; train_acc: 0.7574; test_acc: 0.8421
+epoch: 15 loss: 0.5293; train_acc: 0.6509; test_acc: 0.7895
+epoch: 17 loss: 0.6830; train_acc: 0.6509; test_acc: 0.7895
+epoch: 19 loss: 0.3413; train_acc: 0.6509; test_acc: 0.7895
+epoch: 21 loss: 0.4432; train_acc: 0.6509; test_acc: 0.7895
+epoch: 23 loss: 1.1058; train_acc: 0.6509; test_acc: 0.7895
+epoch: 25 loss: 0.6568; train_acc: 0.6509; test_acc: 0.7895
+epoch: 27 loss: 0.7771; train_acc: 0.7692; test_acc: 0.8421
+epoch: 29 loss: 0.7161; train_acc: 0.6036; test_acc: 0.5263
+epoch: 31 loss: 0.8040; train_acc: 0.716; test_acc: 0.6316
+epoch: 33 loss: 0.9457; train_acc: 0.7278; test_acc: 0.6842
+epoch: 35 loss: 1.1547; train_acc: 0.6509; test_acc: 0.7895
+epoch: 37 loss: 0.8478; train_acc: 0.787; test_acc: 0.7368
+epoch: 39 loss: 0.9263; train_acc: 0.7456; test_acc: 0.6842
+epoch: 41 loss: 0.4836; train_acc: 0.8107; test_acc: 0.7895
+epoch: 43 loss: 0.6107; train_acc: 0.6864; test_acc: 0.8421
+epoch: 45 loss: 1.2610; train_acc: 0.7929; test_acc: 0.7895
+epoch: 47 loss: 1.2699; train_acc: 0.6627; test_acc: 0.7895
+epoch: 49 loss: 1.2307; train_acc: 0.6509; test_acc: 0.7895

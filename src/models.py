@@ -28,7 +28,7 @@ class CLComplement(torch.nn.Module):
         
         # classification layer
         
-        self.lin = Linear(hidden_channels, dataset.num_classes)
+        self.lin = Linear(hidden_channels*2 if merging_type == 'c' else hidden_channels, dataset.num_classes)
 
     def forward(self, x_o, x_c, edge_index_o, edge_index_c, batch_o):
         x_o = self.conv1_o(x_o, edge_index_o)
@@ -45,11 +45,13 @@ class CLComplement(torch.nn.Module):
         elif (self.merging_type == 's'):
             h = x_o - x_c
         elif (self.merging_type == 'c'):
-            h = torch.cat((x_o, x_c), 0)
+            h = torch.cat((x_o, x_c), 1)
         # print(h.size())
 
-        
+        # print(h)
+        # print("================", h.size())
         h = global_add_pool(h, batch_o)
+        h = h.relu()
         
         h = self.lin(h)
         
@@ -72,7 +74,7 @@ class ComplementarySupCon(torch.nn.Module):
         self.conv2_c = encoder(hidden_channels, hidden_channels)
         
         # classification layer
-        self.lin1 = Linear(hidden_channels, hidden_channels)
+        self.lin1 = Linear(hidden_channels*2 if merging_type == 'c' else hidden_channels, hidden_channels)
         self.lin2 = Linear(hidden_channels, dataset.num_classes)
 
     def forward(self, x_o, x_c, edge_index_o, edge_index_c, batch_o, classification = False):
@@ -90,7 +92,7 @@ class ComplementarySupCon(torch.nn.Module):
         elif (self.merging_type == 's'):
             h = x_o - x_c
         elif (self.merging_type == 'c'):
-            h = torch.cat((x_o, x_c), 0)
+            h = torch.cat((x_o, x_c), 1)
         
         # print(h.size())
         
@@ -98,7 +100,8 @@ class ComplementarySupCon(torch.nn.Module):
         h = self.lin1(h)
         
         if (classification):
-            h.relu()
+            h = h.relu()
+            h = F.dropout(h, p=0.5, training=self.training)
             y = self.lin2(h)
             
             return h, y
@@ -125,6 +128,7 @@ class BaseModel(torch.nn.Module):
         e = global_add_pool(x, batch)
 
         # apply classifier (using linear)
+        e = e.relu()
         x = self.lin(e)
 
         return x, e
